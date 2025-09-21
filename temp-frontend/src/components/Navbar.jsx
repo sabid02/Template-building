@@ -21,12 +21,10 @@ export default function Navbar() {
             {/* Logo */}
             <div className="flex items-center">
               <Link to="/" className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">S</span>
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+                  <span className="text-white font-bold text-lg">S</span>
                 </div>
-                <span className="text-xl font-bold text-gray-900">
-                  Selso Mini Website
-                </span>
+                <span className="text-gray-900 font-bold text-xl">Selso</span>
               </Link>
             </div>
 

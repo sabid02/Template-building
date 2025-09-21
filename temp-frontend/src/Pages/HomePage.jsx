@@ -74,37 +74,7 @@ function HomePage() {
 
       <div className="relative z-10 min-h-screen flex flex-col">
         {/* Header */}
-        <header className="pt-8 pb-4 px-6">
-          <div className="max-w-6xl mx-auto flex justify-between items-center">
-            <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-lg">S</span>
-              </div>
-              <span className="text-white font-bold text-xl">Selso</span>
-            </div>
-
-            <nav className="hidden md:flex space-x-8">
-              <a
-                href="#features"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                Features
-              </a>
-              <a
-                href="#about"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                About
-              </a>
-              <a
-                href="#contact"
-                className="text-gray-300 hover:text-white transition-colors"
-              >
-                Contact
-              </a>
-            </nav>
-          </div>
-        </header>
+        <header className="pt-8 pb-4 px-6"></header>
 
         {/* Hero Section */}
         <main className="flex-1 flex flex-col items-center justify-center px-6 text-center">
@@ -224,7 +194,7 @@ function HomePage() {
         </main>
 
         {/* Footer */}
-        <footer className="py-8 px-6 border-t border-white/10">
+        <footer className="py-8 mt-20 px-6 border-t border-white/10">
           <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
             <div className="mb-4 md:mb-0">
               © 2024 Selso. All rights reserved.
